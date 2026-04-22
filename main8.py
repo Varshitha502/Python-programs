@@ -1,0 +1,11 @@
+task=["eat","sleep","study","dance","code"]
+task.sort()
+print(task)
+task.sort(reverse=True)
+print(task)
+task.insert(2,'fly')
+print(task)
+task.pop(4)
+print(task)
+task.remove('fly')
+print(task)
